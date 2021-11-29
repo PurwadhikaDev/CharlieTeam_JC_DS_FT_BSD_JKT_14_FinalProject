@@ -30,3 +30,11 @@ param_grid = {
     'log_reg__class_weight':[{0: x, 1: 1.0-x} for x in weights]
 }
 ```
+
+# Result
+Result
+- After having a thorough look of this project, we would like to conclude that this project is an eye-opener to the industry life condition. There are many imbalances between the promoted and not promoted in a company, preferably to the not promoted, and also the prediction model can be evaluated by a probable cost loss for the company, and determined to be used.
+- The model coefficients however, gives a positive insight for the HR to predict whether an employee is to be promoted or not, and to give a promotion more wisely.
+- This model's coefficient to their classification has a high alignment to us author's domain knowledges. Perhaps when determining a promotion candidate, the HR Department can further use this model's consideration, considering it's recall performance. Further works such as deep learning can also boost this prediction project performance, can also speed up automation of promotion determination in this company.
+- For further business use, we also include a scenario containing employees data that have a high probability chance to be promoted in this data, giving HR as the business user to evaluate the data, and take action such as giving the high probability employees to be promoted to go straight to HR interview, managing the company safe some few bucks of their funds.
+- A more thorough feature engineering can also be done to enhance the model's performance. Current features such as region is impactful to the model but also not clear enough whether the region has another feature to explain their impact to the model.
