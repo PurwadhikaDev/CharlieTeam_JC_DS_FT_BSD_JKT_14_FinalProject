@@ -22,7 +22,12 @@ We import the dataset, EDA, choosing relevant features to be used, impute missin
 
 # Modeling
 We use Logistic Regression model since it has a wider range between the training's performance and the test's performance. We tuned hyperparameter for them using GridSearchCV. The following below are the parameters:
+**SMOTENC**
+For the imbalance issue in our data, we manage to handle them with SMOTENC method that works well with categorical data. Below is the parameter for the SMOTENC method:
 
+smotenc = SMOTENC(categorical_features=[0,1,2,3,6], random_state=22, sampling_strategy=4/5)
+
+X_train_smotenc, y_train_smotenc = smotenc.fit_resample(X_train, y_train)
 **_parameter_**
 ```
 weights = np.linspace(0.05, 0.95, 21)
