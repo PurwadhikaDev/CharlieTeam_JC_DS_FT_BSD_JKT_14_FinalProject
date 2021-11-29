@@ -4,6 +4,10 @@ by Charlie Team
 - Stanley Martin
 - Rifa Faisyah
 
+This Repository Contains:
+- [Dataset](https://github.com/PurwadhikaDev/CharlieTeam_JC_DS_FT_BSD_JKT_14_FinalProject/blob/main/train_emp_prom.csv)
+- [Source Code](https://github.com/PurwadhikaDev/CharlieTeam_JC_DS_FT_BSD_JKT_14_FinalProject/blob/main/Charlie_Team_HR_Analytics_Employee_Promotion.ipynb)
+
 Source of data : https://www.kaggle.com/arashnic/hr-ana
 
 # Define Problem
