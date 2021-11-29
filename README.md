@@ -29,8 +29,8 @@ smotenc = SMOTENC(categorical_features=[0,1,2,3,6], random_state=22, sampling_st
 
 X_train_smotenc, y_train_smotenc = smotenc.fit_resample(X_train, y_train)
 ```
-
-**_parameter_**
+Below is also the parameter that we use to be tuned before and after we do random oversampling using SMOTENC
+**_Parameter_**
 ```
 weights = np.linspace(0.05, 0.95, 21)
 
