@@ -1,4 +1,4 @@
-# HR Analytics: Employee Promotion
+# Final Project - HR Analytics: Employee Promotion
 by Charlie Team
 - Jeremy Bona Carlo
 - Stanley Martin
